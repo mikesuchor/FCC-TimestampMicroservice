@@ -2,12 +2,7 @@ var express = require('express');
 var app = express();
 var port = 8000;
 
-app.get('/', function(req, res) {
-    res.json({
-      unix: null,
-      natural: null
-    });
-});
+app.use(express.static('views'));
 
 app.get('/:timestamp', function(req, res) {
     var timestamp = req.params.timestamp;
