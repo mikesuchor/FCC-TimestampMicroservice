@@ -2,6 +2,13 @@ var express = require('express');
 var app = express();
 var port = 8000;
 
+app.get('/', function(req, res) {
+    res.json({
+      unix: null,
+      natural: null
+    });
+});
+
 app.get('/:timestamp', function(req, res) {
     var timestamp = req.params.timestamp;
     /* If the parameter string (timestamp) is a number, create a new Date object using it, and return a json with the
