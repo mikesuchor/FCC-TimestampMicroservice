@@ -1,0 +1,23 @@
+{
+  "name": "fcc-timestampmicroservice",
+  "version": "1.0.0",
+  "description": "FreeCodeCamp Timestamp Microservice",
+  "main": "script.js",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikesuchor/FCC-TimestampMicroservice.git"
+  },
+  "author": "mikesuchor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikesuchor/FCC-TimestampMicroservice/issues"
+  },
+  "homepage": "https://github.com/mikesuchor/FCC-TimestampMicroservice#readme"
+}
