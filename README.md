@@ -6,3 +6,10 @@ FreeCodeCamp Timestamp Microservice Project
 - [x] If it does, it returns both the Unix timestamp and the natural language form of that date.
 - [x] If it does not contain a date or Unix timestamp, it returns null for those properties.
 
+### Code
+
+```var express = require('express');
+var app = express();
+var port = 8000;
+```
+
