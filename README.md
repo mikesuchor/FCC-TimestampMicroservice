@@ -7,7 +7,7 @@ FreeCodeCamp Timestamp Microservice Project
 - [x] If it does not contain a date or Unix timestamp, it returns null for those properties.
 
 ## New User Stories To Be Verified:
-- [] The API endpoint is GET [project_url]/api/timestamp/:date_string?
+- [ ] The API endpoint is GET [project_url]/api/timestamp/:date_string?
 - [] A date string is valid if can be successfully parsed by new Date(date_string).
 Note that the unix timestamp needs to be an integer (not a string) specifying milliseconds.
 In our test we will use date strings compliant with ISO-8601 (e.g. "2016-11-20") because this will ensure an UTC timestamp.
